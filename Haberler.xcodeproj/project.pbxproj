@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61331E57BD6A6BA5DBA2092A /* Pods_Haberler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41063155E61116D43552385 /* Pods_Haberler.framework */; };
+		C321CA45292FC797007C529F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C321CA44292FC795007C529F /* NetworkManager.swift */; };
+		C33C3CED29340320006C6CE0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C3CEC29340320006C6CE0 /* TableViewCell.swift */; };
+		C35EBD3A29363D4500AED1F9 /* HaberDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35EBD3929363D4500AED1F9 /* HaberDetayViewController.swift */; };
 		C36B26BE292FC53000DAF6DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B26BD292FC53000DAF6DE /* AppDelegate.swift */; };
 		C36B26C0292FC53000DAF6DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B26BF292FC53000DAF6DE /* SceneDelegate.swift */; };
 		C36B26C2292FC53000DAF6DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B26C1292FC53000DAF6DE /* ViewController.swift */; };
 		C36B26C5292FC53000DAF6DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36B26C3292FC53000DAF6DE /* Main.storyboard */; };
 		C36B26C7292FC53100DAF6DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36B26C6292FC53100DAF6DE /* Assets.xcassets */; };
 		C36B26CA292FC53100DAF6DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36B26C8292FC53100DAF6DE /* LaunchScreen.storyboard */; };
+		C36B26D3292FC55600DAF6DE /* HaberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B26D2292FC55600DAF6DE /* HaberModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		030346DC12A14EB9A3BE1B71 /* Pods-Haberler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haberler.release.xcconfig"; path = "Target Support Files/Pods-Haberler/Pods-Haberler.release.xcconfig"; sourceTree = "<group>"; };
+		B96A7AE41F0CBD7703D7000A /* Pods-Haberler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haberler.debug.xcconfig"; path = "Target Support Files/Pods-Haberler/Pods-Haberler.debug.xcconfig"; sourceTree = "<group>"; };
+		C321CA44292FC795007C529F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C33C3CEC29340320006C6CE0 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C35EBD3929363D4500AED1F9 /* HaberDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaberDetayViewController.swift; sourceTree = "<group>"; };
 		C36B26BA292FC53000DAF6DE /* Haberler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haberler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36B26BD292FC53000DAF6DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C36B26BF292FC53000DAF6DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,8 @@
 		C36B26C6292FC53100DAF6DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C36B26C9292FC53100DAF6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C36B26CB292FC53100DAF6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36B26D2292FC55600DAF6DE /* HaberModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaberModel.swift; sourceTree = "<group>"; };
+		E41063155E61116D43552385 /* Pods_Haberler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Haberler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61331E57BD6A6BA5DBA2092A /* Pods_Haberler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C8F3F6B2B74BFB63D9BBCC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E41063155E61116D43552385 /* Pods_Haberler.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C36B26B1292FC53000DAF6DE = {
 			isa = PBXGroup;
 			children = (
 				C36B26BC292FC53000DAF6DE /* Haberler */,
 				C36B26BB292FC53000DAF6DE /* Products */,
+				DECFA99AC946325668FD5280 /* Pods */,
+				8C8F3F6B2B74BFB63D9BBCC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,44 @@
 		C36B26BC292FC53000DAF6DE /* Haberler */ = {
 			isa = PBXGroup;
 			children = (
+				C3E02D53293785FF00591ADA /* Controller */,
+				C3E02D52293785F500591ADA /* model */,
+				C321CA44292FC795007C529F /* NetworkManager.swift */,
 				C36B26BD292FC53000DAF6DE /* AppDelegate.swift */,
 				C36B26BF292FC53000DAF6DE /* SceneDelegate.swift */,
-				C36B26C1292FC53000DAF6DE /* ViewController.swift */,
 				C36B26C3292FC53000DAF6DE /* Main.storyboard */,
 				C36B26C6292FC53100DAF6DE /* Assets.xcassets */,
 				C36B26C8292FC53100DAF6DE /* LaunchScreen.storyboard */,
 				C36B26CB292FC53100DAF6DE /* Info.plist */,
 			);
 			path = Haberler;
+			sourceTree = "<group>";
+		};
+		C3E02D52293785F500591ADA /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C36B26D2292FC55600DAF6DE /* HaberModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C3E02D53293785FF00591ADA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C35EBD3929363D4500AED1F9 /* HaberDetayViewController.swift */,
+				C33C3CEC29340320006C6CE0 /* TableViewCell.swift */,
+				C36B26C1292FC53000DAF6DE /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DECFA99AC946325668FD5280 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B96A7AE41F0CBD7703D7000A /* Pods-Haberler.debug.xcconfig */,
+				030346DC12A14EB9A3BE1B71 /* Pods-Haberler.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C36B26CE292FC53100DAF6DE /* Build configuration list for PBXNativeTarget "Haberler" */;
 			buildPhases = (
+				61DCC5617951F2DC36DA3AEF /* [CP] Check Pods Manifest.lock */,
 				C36B26B6292FC53000DAF6DE /* Sources */,
 				C36B26B7292FC53000DAF6DE /* Frameworks */,
 				C36B26B8292FC53000DAF6DE /* Resources */,
+				1954C6D35BF4C171DDB9EAB9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +187,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1954C6D35BF4C171DDB9EAB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Haberler/Pods-Haberler-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Haberler/Pods-Haberler-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Haberler/Pods-Haberler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61DCC5617951F2DC36DA3AEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Haberler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C36B26B6292FC53000DAF6DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C321CA45292FC797007C529F /* NetworkManager.swift in Sources */,
 				C36B26C2292FC53000DAF6DE /* ViewController.swift in Sources */,
 				C36B26BE292FC53000DAF6DE /* AppDelegate.swift in Sources */,
+				C35EBD3A29363D4500AED1F9 /* HaberDetayViewController.swift in Sources */,
+				C33C3CED29340320006C6CE0 /* TableViewCell.swift in Sources */,
+				C36B26D3292FC55600DAF6DE /* HaberModel.swift in Sources */,
 				C36B26C0292FC53000DAF6DE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +382,7 @@
 		};
 		C36B26CF292FC53100DAF6DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B96A7AE41F0CBD7703D7000A /* Pods-Haberler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +411,7 @@
 		};
 		C36B26D0292FC53100DAF6DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 030346DC12A14EB9A3BE1B71 /* Pods-Haberler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
